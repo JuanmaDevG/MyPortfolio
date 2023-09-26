@@ -1,8 +1,29 @@
-.default-text-style {
+html {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 h1 {
-    font-size: 45;
+    font-size: 400%;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 100%;
+}
+
+.content-pannel {
+    color: black;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 3%;
 }
