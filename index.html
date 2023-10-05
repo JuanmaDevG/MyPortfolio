@@ -15,7 +15,7 @@
         <div class="six-column-grid">
 
             <!-- Main pannel with personal information -->
-            <div id="personal-info-panel" class="content-pannel major-left-content profile-data">
+            <div class="content-pannel major-left-content profile-data" style="grid-row: 1 / 5;">
                 <div class="profile-title">
                     <h2 style="margin-top: 0px; margin-bottom: 0px;"> <strong> Hi, nice to meet you, I'm Juan Manuel </strong> </h2>
                 </div>
@@ -32,7 +32,7 @@
                     </p>
                     <p>
                         Programming is my full time hobby (and job), specially using languages that are closer to the hardware (like C, C++, Rust, Zig, V...) 
-                        but with this web and many more, I've learned solid web development.
+                        but with this web and many more, I've learned solid web development from documentation.
                     </p>
                     <p>
                         If you are interested in seeing any of my projects, you can visit <a href="https://github.com/JuanmaDevG">my GitHub</a>
@@ -40,9 +40,9 @@
                 </div>
             </div>
             
-            <div id="hobbies-panel" class="content-pannel minor-right-content">
+            <div class="content-pannel minor-right-content", style="grid-row: 4 / 7;">
         
-                <h3> Hobbies </h3>
+                <h2> My hobbies </h2>
                 <ul>
                     <li>
                         Graphics programming + multiparallel programming
@@ -62,35 +62,46 @@
                     <li>
                         Image and data compression and algorithms
                     </li>
-                    <li>
-                        I love to optimize code to port games to old machines
-                    </li>
                     <li> 
                         Debbuggers and CPU and GPU profilers (WinDbg, gdb)
                     </li>
                 </ul>
             </div>
+
+            <!-- Where did I study and future plans -->
+            <div class="content-pannel major-left-content" style="grid-row: 6 / 10;">
+                <h2> Where and what did I study </h2>
+                <p>
+                    I finished all my degree at <a href="https://www.ua.es/"> Universidad de Alicante </a> and I got attracted by the 
+                    parallel computations + AI + graphics programming branch (the hardest branch, based on my friend's experience), and I finished university 
+                    at 16/05/2026.
+                    School, HighSchool, University, Udemy, Microsoft Win32APi documentation and more documentation here...
+                </p>
+                <p>
+                    During university, I studied Udemy courses by myself like:
+                </p>
+                <ul>
+                    <li>Computer graphics with OpenGL and C++ (by Ben Cook)</li>
+                    <li>CMake, Tests and Tooling for C/C++ projects</li>
+                </ul>
+            </div>
+
         </div>
 
-    
-        <!-- Where did I study and future plans -->
-        <div class="content-pannel">
-            <h2> Studies </h2>
-            <p> 
-                School, HighSchool, University, Udemy, Microsoft Win32APi documentation and more documentation here...
-            </p>
+        <div class="six-column-grid">
+            
+            <!-- Programming skills with super cool animations (supposedly) -->
+            <div class="content-pannel symmetric-left-content circular">
+                <h2 class="circle-text"> Programming skills </h2>
+            </div>
+
+            <!-- How to contact me GH, Mail, Youtube Channel, Companies (if I ever have one) -->
+            <div class="content-pannel symmetric-right-content circular">
+                <h2 class="circle-text"> How to contact me? </h2>
+                <!-- TODO: Some menu with automatic email requests, cool animations that open up new menus -->
+            </div>
         </div>
     
-        <!-- Programming skills with super cool animations (supposedly) -->
-        <div class="content-pannel">
-            <h2> Programming skills </h2>
-        </div>
     
-        <!-- How to contact me GH, Mail, Youtube Channel, Companies (if I ever have one) -->
-        <div class="content-pannel">
-            <h2> How to contact me? </h2>
-            <a href="https://github.com/JuanmaDevG"> Link to my Github </a>
-            <!-- TODO: Put some menu to automatically send and email (use protonmail) -->
-        </div>
     </body>
 </html>
